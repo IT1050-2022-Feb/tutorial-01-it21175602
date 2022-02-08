@@ -4,27 +4,22 @@
 
 #include <stdio.h>
 
-int main() {
-   #include <stdio.h>
-
-int main() {
+int main() 
+{
    int mark01,mark02;
    float AVG;
    
-   printf("Mark 01");
-   scanf(" %d ,&mark01);
+   printf("Enter Mark 01:");
+   scanf(" %d",&mark01);
    
-   printf("Mark 02");
-   scanf(" %d ,&mark02);
+   printf("Enter Mark 02:");
+   scanf(" %d" ,&mark02);
          
-         Avg=(mark01 + mark02)/2.0;
+         AVG=(mark01 + mark02)/2.0;
          
-         printf("Average= ,&avg");
+         printf("Average mark is = %.1f",AVG);
+
          
-         
-  
-  return 0;
-  
   return 0;
 }
 
