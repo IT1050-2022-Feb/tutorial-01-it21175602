@@ -6,6 +6,10 @@ Do not change the code given in the main() function when you are implementing yo
 
 #include <stdio.h>
 
+int multiply(int a,int b);
+int minimum(int a,int b);
+int maximum(int a,int b);
+
 int main() {
    int no1, no2;
    printf("Enter a value for no 1 : ");
@@ -17,3 +21,31 @@ int main() {
    printf("%d ", multiply(no1, no2));
    return 0;
 }
+int maximum(int a,int b)
+{
+  if(a<b)
+  {
+    return b;
+  }
+  else
+  {
+    return a;
+  }
+}
+int minimum(int a,int b)
+{
+  if(a<b)
+  {
+    return a;
+  }
+  else
+  {
+    return b;
+  }
+}
+
+int multiply(int a,int b)
+{
+  return a*b;
+}
+
